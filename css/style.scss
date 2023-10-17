@@ -1,19 +1,25 @@
-@use "reset";
+@import "reset";
+@import "normalize";
 @import "colors";
+@import "page1";
 
 
 
 
 body {
   background-color: $color-yellow;
+  color: black;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
   color: white;
 }
-h2 {
-  color: $color-green;
-}
-h3 {
-  color: $color-purple;
-}
+
+
+
