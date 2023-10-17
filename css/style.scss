@@ -1,3 +1,19 @@
+@use "reset";
+@import "colors";
+
+
+
+
 body {
-  background-color: yellow;
+  background-color: $color-yellow;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: $color-green;
+}
+h3 {
+  color: $color-purple;
 }
