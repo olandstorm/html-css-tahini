@@ -1,7 +1,7 @@
-@import "reset";
-@import "normalize";
+@import "vendor/reset";
+@import "vendor/normalize";
 @import "colors";
-@import "page1";
+@import "pages/page1";
 
 
 
@@ -13,7 +13,7 @@ body {
   font-size: 1rem;
 }
 
-p {
+.roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
