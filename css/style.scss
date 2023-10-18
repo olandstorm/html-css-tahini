@@ -4,7 +4,14 @@
 @import "pages/page1";
 
 
+$debugging: true; // true or false
 
+
+div {
+  @if $debugging {
+    outline: 1px solid hotpink;
+  }
+}
 
 body {
   background-color: $color-yellow;
