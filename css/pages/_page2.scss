@@ -1,0 +1,60 @@
+.page-2 {
+    background-color: $color-yellow;
+    border-width: 5px;
+    border-style: solid;
+    border-color: $color-yellow;
+    width: 100%;
+  }
+
+.food_menu-fig {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+    .food_menu-img {
+        width: 50vw;
+        min-width: 200px;
+        height: auto;
+        margin: auto;
+        object-fit: cover;
+    }
+}
+
+.page-2 article {
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-width: 2px 0px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5px;
+
+    .food_menu-description {
+        text-align: center;
+    }
+}
+
+.below_food_menu-fig {
+    margin: auto;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+
+    img {
+        width: 40vw;
+        min-width: 100px;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.food_menu-description {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+}

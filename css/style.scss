@@ -2,9 +2,10 @@
 @import "vendor/normalize";
 @import "colors";
 @import "pages/page1";
+@import "pages/page2";
 
 
-$debugging: true; // true or false
+$debugging: false; // true or false
 
 
 div {
@@ -28,5 +29,9 @@ h1 {
   color: white;
 }
 
+
+.tablet_only {
+  display: none;
+}
 
 
