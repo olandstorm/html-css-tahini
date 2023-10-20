@@ -1,10 +1,18 @@
 .page-1 {
-    background-color: black;
-    border-width: 0px 5px;
-    border-style: solid;
-    border-color: $color-yellow;
-    width: 100%;
+  background-color: black;
+  border-width: 0px 5px;
+  border-style: solid;
+  border-color: $color-yellow;
+  width: 100%;
+
+    .page_spacer {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
   }
+  }
+
+
 
   .word_group {
     width: 195px;
@@ -21,6 +29,7 @@
       font-size: 1.9rem;
       color: $color-purple;
       right: 0;
+      top: 0;
     }
     .tahini {
       font-size: 5rem;

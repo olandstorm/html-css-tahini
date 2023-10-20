@@ -1,0 +1,118 @@
+.page-3 {
+    background-color: $color-green;
+    border-top: 5px solid white;
+    width: 100%;
+
+    .page_spacer {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+}
+
+::placeholder {
+    font-size: 0.8rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+form {
+    padding-top: 20px;
+    margin:auto;
+}
+
+fieldset {
+    padding: 0 10px;
+    border: 0;
+    text-align: center;
+
+    legend {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    label {
+        width: 65vw;
+        min-width: 250px;
+        max-width: 350px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+        span {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            margin-bottom: 2px;
+        }
+
+        input {
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 7px;
+        }
+    }
+
+    .button {
+        width: 125px;
+        margin: 15px 2px 0 2px;  
+    }
+}
+
+address {
+    width: 65vw;
+    max-width: 350px;
+    min-width: 250px;
+    height: 65vw;
+    max-height: 350px;
+    min-height: 250px;
+    margin: auto;
+    position: relative;
+
+    .blurred_bg {
+        background-image: url("../../assets/photos/mobile/table_mobile.jpg");
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .contact_info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        ul {
+            height: 100%;
+            margin: 20px 5px;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 1fr 1fr 1fr;
+
+            li {
+                color: $color-blue;
+                text-shadow: -2px -2px black;
+
+                span {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

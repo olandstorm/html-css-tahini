@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Condensed:wght@300;400&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 </head>
 
 <body>
@@ -24,32 +26,36 @@
     </nav>
   </header>
   <div class="page-1">
-    <div class="word_group">
-      <p class="word drizzle">Drizzle</p>
-      <p class="word tahini">Tahini</p>
-      <p class="word chickpeas">Chickpeas</p>
-    </div>
-    <p class="green_text">
-      Main course hemp seeds Southern Italian shiitake mushrooms a delicious meal banana bread lemon tahini dressing
-      apple vinaigrette veggie burgers cool cucumbers coconut sugar. Seasonal edamame hummus asian pear kale bite sized
-      ghost pepper one bowl mediterranean luxury bowl cayenne Thai sun pepper.
-    </p>
-    <figure class="fig_salad">
-      <img src="assets/photos/mobile/salad_mobile.jpg" width="1080" height="864" alt="Green salad head from above"
-        class="img_salad">
-      <img src="assets/icons/arrow.svg" width="50" height="50" alt="A graphic white arrow" class="img_white_arrow">
-    </figure>
-    <div class="white_textbox">
-      <p class="white_textbox-text">
-        Crispy iceberg lettuce Caribbean red habanero blueberry chia seed jam overflowing berries roasted butternut
-        squash basmati thyme hummus falafel bowl cozy butternut cilantro lime vinaigrette heat mint potato chocolate
-        cookie seeds samosa walnut mushroom tart.
+    <div class="page_spacer">
+      <div class="word_group">
+        <p class="word drizzle">Drizzle</p>
+        <p class="word tahini">Tahini</p>
+        <p class="word chickpeas">Chickpeas</p>
+
+      </div>
+      <p class="green_text">
+        Main course hemp seeds Southern Italian shiitake mushrooms a delicious meal banana bread lemon tahini dressing
+        apple vinaigrette veggie burgers cool cucumbers coconut sugar. Seasonal edamame hummus asian pear kale bite
+        sized
+        ghost pepper one bowl mediterranean luxury bowl cayenne Thai sun pepper.
       </p>
-      <div class="explore">
-        <a href="#food_menu" class="explore_link">Explore Menu
-          <figure class="explore_fig"><img src="assets/icons/arrow2.svg" alt="A graphic black arrow" height="30"
-              width="34"></figure>
-        </a>
+      <figure class="fig_salad">
+        <img src="assets/photos/mobile/salad_mobile.jpg" width="1080" height="864" alt="Green salad head from above"
+          class="img_salad">
+        <img src="assets/icons/arrow.svg" width="50" height="50" alt="A graphic white arrow" class="img_white_arrow">
+      </figure>
+      <div class="white_textbox">
+        <p class="white_textbox-text">
+          Crispy iceberg lettuce Caribbean red habanero blueberry chia seed jam overflowing berries roasted butternut
+          squash basmati thyme hummus falafel bowl cozy butternut cilantro lime vinaigrette heat mint potato chocolate
+          cookie seeds samosa walnut mushroom tart.
+        </p>
+        <div class="explore">
+          <a href="#food_menu" class="explore_link">Explore Menu
+            <figure class="explore_fig"><img src="assets/icons/arrow2.svg" alt="A graphic black arrow" height="30"
+                width="34"></figure>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -70,7 +76,7 @@
         <p class="food_menu-description">Deep-fried halloumi</p>
       </div>
       <div>
-        <p>195 kr</p>
+        <p class="food_menu-price">195 kr</p>
       </div>
     </article>
     <article>
@@ -81,7 +87,7 @@
         <p class="food_menu-description">Green lentis with rice and fried onion</p>
       </div>
       <div>
-        <p>135 kr</p>
+        <p class="food_menu-price">135 kr</p>
       </div>
     </article>
     <article>
@@ -92,7 +98,7 @@
         <p class="food_menu-description">Lebanese spicy yoghurt with chopped cucumber</p>
       </div>
       <div>
-        <p>95 kr</p>
+        <p class="food_menu-price">95 kr</p>
       </div>
     </article>
     <article>
@@ -103,7 +109,7 @@
         <p class="food_menu-description">Rice- and veggie-filled dolma with mint and lemon</p>
       </div>
       <div>
-        <p>85 kr</p>
+        <p class="food_menu-price">85 kr</p>
       </div>
     </article>
     <article>
@@ -114,7 +120,7 @@
         <p class="food_menu-description">Smoked chopped aubergine, sesame paste, garlic and lemon</p>
       </div>
       <div>
-        <p>175 kr</p>
+        <p class="food_menu-price">175 kr</p>
       </div>
     </article>
     <article>
@@ -125,7 +131,7 @@
         <p class="food_menu-description">Artichoke with lemon and garlic marinade</p>
       </div>
       <div>
-        <p>99 kr</p>
+        <p class="food_menu-price">99 kr</p>
       </div>
     </article>
     <article>
@@ -136,7 +142,7 @@
         <p class="food_menu-description">Spicy bell pepper relish with crushed walnuts and pomegranate syrup</p>
       </div>
       <div>
-        <p>123 kr</p>
+        <p class="food_menu-price">123 kr</p>
       </div>
     </article>
     <figure class="below_food_menu-fig">
@@ -147,60 +153,59 @@
     </figure>
   </div>
   <div class="page-3">
-    <form>
-      <fieldset>
-        <legend>Book your table</legend>
-        <label>
-          <span>Name</span>
-          <input type="text" required>
-        </label>
-        <label>
-          <span>E-mail</span>
-          <input type="email" required>
-        </label>
-        <label>
-          <span>Phone</span>
-          <input type="tel">
-        </label>
-        <label>
-          <span>Party size</span>
-          <select>
-            <option value="">
-              --Select--
-            </option>
-            <option value="1-2">
-              1-2
-            </option>
-            <option value="3">
-              3
-            </option>
-            <option value="4">
-              4
-            </option>
-            <option value="5">
-              5
-            </option>
-            <option value="6-">
-              6+
-            </option>
-          </select>
-        </label>
-        <label>
-          <span>Allergies</span>
-          <input type="text">
-        </label>
-        <input type="reset" value="Cancel">
-        <input type="submit" value="Request">
-      </fieldset>
-    </form>
-    <address>
-      <ul>
-        <li>+46 8 123 45 67</li>
-        <li>book@toughcookie.com</li>
-        <li>Brända Tomten
-          111 31 Stockholm</li>
-      </ul>
-    </address>
+    <div class="page_spacer">
+      <form>
+        <fieldset>
+          <legend>Book your table</legend>
+          <label>
+            <span>Name</span>
+            <input type="text" placeholder="First and Last Name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="Your Email" required>
+          </label>
+          <label>
+            <span>Phone</span>
+            <input placeholder="Your Phone Number" type="tel">
+          </label>
+          <label>
+            <span>Date</span>
+            <input type="date">
+          </label>
+          <label>
+            <span>Party size</span>
+            <input type="number" placeholder="Size of party" required>
+          </label>
+          <label>
+            <span>Allergies</span>
+            <input type="text" placeholder="Please let us know if there is any">
+          </label>
+          <input type="reset" value="Cancel" class="button btn-purple">
+          <input type="submit" value="Request" class="button btn-yellow">
+        </fieldset>
+      </form>
+      <address>
+        <div class="blurred_bg"></div>
+        <div class="contact_info">
+          <ul>
+            <li><span class="material-symbols-outlined">
+                call
+              </span></li>
+            <li>+46 8 123 45 67</li>
+            <li><span class="material-symbols-outlined">
+                alternate_email
+              </span></li>
+            <li>book@toughcookie.com</li>
+            <li><span class="material-symbols-outlined">
+                location_on
+              </span></li>
+            <li>Brända Tomten<br>
+              111 31 Stockholm</li>
+          </ul>
+        </div>
+      </address>
+    </div>
   </div>
   <footer>
     <div>

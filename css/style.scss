@@ -3,6 +3,8 @@
 @import "colors";
 @import "pages/page1";
 @import "pages/page2";
+@import "pages/page3";
+@import "pages/cookie";
 
 
 $debugging: false; // true or false
@@ -21,14 +23,46 @@ body {
   font-size: 1rem;
 }
 
-.roboto {
-  font-family: 'Roboto Condensed', sans-serif;
+ul>li::marker { 
+  content: ""; 
 }
 
 h1 {
   color: white;
 }
 
+h3 {
+  font-size: 1.2rem;
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  padding: 2px 30px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.btn-purple {
+  background-color: $color-purple;
+    &:hover {
+      background-color: rgba($color-purple, 0.7);
+    }
+  }
+
+.btn-yellow {
+  background-color: $color-yellow;
+  &:hover {
+    background-color: rgba($color-yellow, 0.7);
+  }
+}
+
+.btn-green {
+  background-color: $color-green;
+  &:hover {
+    background-color: rgba($color-green, 0.7);
+  }
+}
 
 .tablet_only {
   display: none;
