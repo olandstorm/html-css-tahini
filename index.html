@@ -207,14 +207,21 @@
       </address>
     </div>
   </div>
-  <footer>
+  <footer id="cookie_bar">
     <div>
       <p class="cookie_text">You should accept cookies.</p>
     </div>
-    <div> <input type="button" value="Decline" class="button btn-yellow">
-      <input type="button" value="Accept" class="button btn-green">
+    <div class="cookie_btns"> <input type="button" value="Decline" class="button btn-yellow" onclick="noCookie()">
+      <input type="button" value="Accept" class="button btn-green" onclick="noCookie()">
     </div>
   </footer>
+
+
+  <script>
+    function noCookie() {
+      document.getElementById("cookie_bar").style.display = "none";
+    }
+  </script>
 
 </body>
 

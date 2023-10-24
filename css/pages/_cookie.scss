@@ -1,9 +1,27 @@
 footer {
     background-color: $color-purple;
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+
 
     .cookie_text {
         font-family: 'Roboto Condensed', sans-serif;
         color: white;
+    }
+
+    .cookie_btns {
+        text-align: right;
+
+        input {
+            margin: 3px;
+        }
     }
 }
 
