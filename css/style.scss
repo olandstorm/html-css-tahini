@@ -1,6 +1,7 @@
 @import "vendor/reset";
 @import "vendor/normalize";
 @import "colors";
+@import "pages/nav.scss";
 @import "pages/page1";
 @import "pages/page2";
 @import "pages/page3";
@@ -25,6 +26,7 @@ body {
 
 h1 {
   color: white;
+  font-size: clamp(1.3rem, 8.5vw, 2.5em);
 }
 
 h3 {
@@ -64,4 +66,9 @@ h3 {
   display: none;
 }
 
-
+.anchor_mobile {
+  top: -100px;
+  visibility: hidden;
+  display: block;
+  position: relative;
+}

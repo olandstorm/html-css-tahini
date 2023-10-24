@@ -17,13 +17,24 @@
 <body>
   <header>
     <h1>Tough Cookie</h1>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Menu</li>
-        <li>Book table</li>
-      </ul>
-    </nav>
+    <div class="nav_button">
+      <input id="burger" type="checkbox">
+      <label for="burger" class="menu_open">
+        <div class="open"></div>
+      </label>
+      <div class="nav_full nav_effects">
+        <div class="close_spacer">
+          <label for="burger" class="menu_close"></label>
+        </div>
+        <nav class="nav_content">
+          <ul>
+            <li class="nav_item"><a href="#">Home</a></li>
+            <li class="nav_item"><a href="#food_menu">Menu</a></li>
+            <li class="nav_item"><a href="#book_table">Book table</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
   <div class="page-1">
     <div class="page_spacer">
@@ -59,7 +70,8 @@
       </div>
     </div>
   </div>
-  <div class="page-2" id="food_menu">
+  <div class="page-2">
+    <a class="anchor_mobile" id="food_menu"></a>
     <figure class="food_menu-fig">
       <img src="assets/photos/mobile/dish_mobile.jpg" width="1080" height="1350"
         alt="A fresh green dish on a wooden table" class="food_menu-img">
@@ -153,6 +165,7 @@
     </figure>
   </div>
   <div class="page-3">
+    <a class="anchor_mobile" id="book_table"></a>
     <div class="page_spacer">
       <form>
         <fieldset>
@@ -220,6 +233,17 @@
   <script>
     function noCookie() {
       document.getElementById("cookie_bar").style.display = "none";
+    }
+
+    const links = document.querySelectorAll('.nav_item a')
+    const checkbox = document.querySelector('#burger')
+
+    for (const link of links) {
+      link.onclick = handleClick
+    }
+
+    function handleClick() {
+      checkbox.checked = false
     }
   </script>
 

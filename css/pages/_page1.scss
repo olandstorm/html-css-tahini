@@ -4,6 +4,7 @@
   border-style: solid;
   border-color: $color-yellow;
   width: 100%;
+  padding-top: 130px;
 
     .page_spacer {
       display: flex;
@@ -86,9 +87,14 @@
 
   .white_textbox-text {
     color: $color-purple;
+    margin: auto;
+    max-width: 500px;
   }
 
   .explore {
+
+    max-width: 500px;
+    margin: auto;
 
     .explore_link {
       display: inline-block;
