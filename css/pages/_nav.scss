@@ -16,6 +16,7 @@ header {
         text-transform: uppercase;
         padding-left: 15px;
         letter-spacing: 0.3rem;
+        font-weight: 100;
     }
 
     .nav_button {
@@ -37,42 +38,42 @@ header {
           padding: 0px;
           cursor: pointer;
 
-        .open {
-          background-color: $color-yellow;
-          width: 40px;
-          height: 6px;
-          display: block;
-          border-radius: 3px;
-          cursor: pointer;
-          position: relative;
-
-          &:before {
-            content: "";
+          .open {
             background-color: $color-yellow;
             width: 40px;
             height: 6px;
             display: block;
             border-radius: 3px;
+            cursor: pointer;
             position: relative;
-            top: -12px;
-            left: 0;
-            transform: rotate(0deg);
-            transition: all 0.3s ease;
-          }
 
-          &:after {
-            content: "";
-            background-color: $color-yellow;
-            width: 40px;
-            height: 6px;
-            display: block;
-            border-radius: 3px;
-            position: relative;
-            top: 6px;
-            left: 0;
-            transform: rotate(0deg);
-            transition: all 0.3s ease;
-          }
+            &:before {
+              content: "";
+              background-color: $color-yellow;
+              width: 40px;
+              height: 6px;
+              display: block;
+              border-radius: 3px;
+              position: relative;
+              top: -12px;
+              left: 0;
+              transform: rotate(0deg);
+              transition: all 0.3s ease;
+            }
+
+            &:after {
+              content: "";
+              background-color: $color-yellow;
+              width: 40px;
+              height: 6px;
+              display: block;
+              border-radius: 3px;
+              position: relative;
+              top: 6px;
+              left: 0;
+              transform: rotate(0deg);
+              transition: all 0.3s ease;
+            }
 
         }
         

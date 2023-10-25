@@ -1,7 +1,7 @@
 @import "vendor/reset";
 @import "vendor/normalize";
 @import "colors";
-@import "pages/nav.scss";
+@import "pages/nav";
 @import "pages/page1";
 @import "pages/page2";
 @import "pages/page3";
@@ -73,4 +73,9 @@ h3 {
   visibility: hidden;
   display: block;
   position: relative;
+}
+
+
+@media screen and (min-width: 786px) {
+  @import "layouts/tablet";
 }
