@@ -120,6 +120,17 @@ address {
                 font-size: 1.2rem;
                 line-height: 1.5rem;
 
+                .contact_link {
+                    color: $color-blue;
+                    text-shadow: -2px -2px black;
+                    font-style: normal;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.2rem;
+                    line-height: 1.5rem;
+                }
+
                 span {
                     font-size: 2.3rem;
                 }
