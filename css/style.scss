@@ -69,6 +69,10 @@ h3 {
   @import "layouts/tablet";
 }
 
+@media screen and (min-width: 1024px) {
+  @import "layouts/desktop";
+}
+
 @media (hover: hover) {
   .btn-yellow:hover {
     background-color: rgba($color-yellow, 0.7);
