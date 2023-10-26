@@ -46,23 +46,14 @@ h3 {
 
 .btn-purple {
   background-color: $color-purple;
-    &:hover {
-      background-color: rgba($color-purple, 0.7);
-    }
   }
 
 .btn-yellow {
   background-color: $color-yellow;
-  &:hover {
-    background-color: rgba($color-yellow, 0.7);
-  }
 }
 
 .btn-green {
   background-color: $color-green;
-  &:hover {
-    background-color: rgba($color-green, 0.7);
-  }
 }
 
 .tablet_only {
@@ -79,4 +70,38 @@ h3 {
 
 @media screen and (min-width: 768px) {
   @import "layouts/tablet";
+}
+
+@media (hover: hover) {
+  .btn-yellow:hover {
+    background-color: rgba($color-yellow, 0.7);
+  }
+  .btn-green:hover {
+    background-color: rgba($color-green, 0.7);
+  }
+  .btn-purple:hover {
+    background-color: rgba($color-purple, 0.7);
+  }
+  header .nav_button {
+    .menu_open:hover .open:before {
+      left: -9px;
+    }
+    .menu_open:hover .open:after {
+      left: 5px;
+    }
+    .nav_full .nav_content ul li a:hover {
+      color: black;
+    }
+    #burger:checked:hover ~ .menu_open .open:before {
+      left: 0;
+    }
+    #burger:checked:hover ~ .menu_open .open:after {
+      left: 0;
+    }
+
+
+  }
+  
+
+
 }
