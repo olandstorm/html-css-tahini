@@ -2,6 +2,10 @@
     top: 0;
 }
 
+.tablet_only {
+    display: initial;
+}
+
 .button {
     width: 200px;
     font-size: 1.9rem;
@@ -89,6 +93,7 @@ main {
     grid-column-start: 2;
     grid-column-end: 9;
 }
+
 .page-1 {
     padding-top: 0;
     border-width: 0px 10px;
@@ -96,7 +101,8 @@ main {
     .page_spacer {
         display: grid;
         grid-template-columns: repeat(7, minmax(0,1fr));
-        grid-template-rows: minmax(50vh,auto) minmax(40vh,auto);
+        grid-template-rows: minmax(40vh,auto) minmax(40vh,auto);
+
     }
 
     .word_group {
@@ -149,10 +155,39 @@ main {
     }
 }
 
+.page-2 {
+    border-width: 10px;
 
+    .mobile_only {
+        display: none;
+    }
 
+    .food_menu-fig {
+        margin: auto;
+        display: flex;
+        padding: 20px 0 10px 0;
+        justify-content: space-between;
+        column-gap: 10px;
+        width: 100%;
+    
+        .food_menu-img {
+            width: 28vw;
+            min-width: 100px;
+            height: auto;
+            margin: 0;
+            object-fit: cover;
+        }
+    }
 
+    article:last-of-type {
+        margin-bottom: 25px;
+    }
 
+}
+
+.page-3 {
+
+}
 
 footer {
     z-index: 30;
