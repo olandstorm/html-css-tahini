@@ -6,46 +6,44 @@
   width: 100%;
   padding-top: 130px;
 
-    .page_spacer {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
+  .page_spacer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
+}
+
+.word_group {
+  width: 195px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+
+  .word {
+    text-transform: uppercase;
+    position: absolute;
   }
-
-
-
-  .word_group {
-    width: 195px;
-    height: 150px;
-    margin: auto;
-    position: relative;
-    text-align: center;
-
-    .word {
-      text-transform: uppercase;
-      position: absolute;
-    }
-    .drizzle {
-      font-size: 1.9rem;
-      color: $color-purple;
-      right: 0;
-      top: 0;
-    }
-    .tahini {
-      font-size: 5rem;
-      color: $color-green;
-      top: 5px;
-      right: 0;
-      z-index: 2;
-    }
-    .chickpeas {
-      font-size: 1.9rem;
-      color: $color-yellow;
-      top: 75px;
-      left: 15px;
-      z-index: 1;
-    }
+  .drizzle {
+    font-size: 1.9rem;
+    color: $color-purple;
+    right: 0;
+    top: 0;
+  }
+  .tahini {
+    font-size: 5rem;
+    color: $color-green;
+    top: 5px;
+    right: 0;
+    z-index: 2;
+  }
+  .chickpeas {
+    font-size: 1.9rem;
+    color: $color-yellow;
+    top: 75px;
+    left: 15px;
+    z-index: 1;
+  }
 }
 
 .green_text {
@@ -92,7 +90,6 @@
   }
 
   .explore {
-
     max-width: 500px;
     margin: auto;
 
@@ -112,4 +109,3 @@
     }
   }
 }
-

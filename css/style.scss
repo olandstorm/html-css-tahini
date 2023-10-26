@@ -7,9 +7,7 @@
 @import "pages/page3";
 @import "pages/cookie";
 
-
 $debugging: false; // true or false
-
 
 div {
   @if $debugging {
@@ -20,7 +18,7 @@ div {
 body {
   background-color: $color-yellow;
   color: black;
-  font-family: 'Jockey One', sans-serif;
+  font-family: "Jockey One", sans-serif;
   font-size: 1rem;
 }
 
@@ -46,7 +44,7 @@ h3 {
 
 .btn-purple {
   background-color: $color-purple;
-  }
+}
 
 .btn-yellow {
   background-color: $color-yellow;
@@ -66,7 +64,6 @@ h3 {
   display: block;
   position: relative;
 }
-
 
 @media screen and (min-width: 768px) {
   @import "layouts/tablet";
@@ -98,10 +95,5 @@ h3 {
     #burger:checked:hover ~ .menu_open .open:after {
       left: 0;
     }
-
-
   }
-  
-
-
 }

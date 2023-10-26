@@ -1,126 +1,122 @@
 .page-2 {
-    background-color: $color-yellow;
-    border-width: 5px;
-    border-style: solid;
-    border-color: $color-yellow;
-    width: 100%;
+  background-color: $color-yellow;
+  border-width: 5px;
+  border-style: solid;
+  border-color: $color-yellow;
+  width: 100%;
 
-
-
-.food_menu-fig {
+  .food_menu-fig {
     text-align: center;
     padding-top: 10px;
     margin-bottom: 10px;
 
     .food_menu-img {
-        width: 50vw;
-        min-width: 200px;
-        height: auto;
-        margin: auto;
-        object-fit: cover;
+      width: 50vw;
+      min-width: 200px;
+      height: auto;
+      margin: auto;
+      object-fit: cover;
     }
-}
+  }
 
-    article {
-        display: flex;
-        width: 100vw;
-        max-width: 100%;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-width: 2px 0px;
-        border-color: black;
-        border-style: solid;
-        margin-top: 5px;
+  article {
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-width: 2px 0px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5px;
 
-        .food_menu-title {
-            position: relative;
-            width: 100%;
-            display: flex;
-            justify-content: center;
+    .food_menu-title {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
 
-            .title_spacer {
-                width: 100%;
+      .title_spacer {
+        width: 100%;
 
-                .sticker {
-                    font-family: 'Courier New', Courier, monospace;
-                    text-transform: uppercase;
-                    font-size: 0.8rem;
-                    line-height: 0.8rem;
-                }
-
-                .sticker_bg {
-                    display: inline-block;
-                    margin-left: 3vw;
-                    height: 0.7rem;
-                }
-
-                .sticker_new-bg {
-                    background-color: $color-purple;
-                    padding: 0 13px 0 11px;
-                    transform: rotate(2deg) translate(0, 5px);
-
-                    .sticker_new {
-                        display: block;
-                        transform: rotate(-2deg);
-                    }
-                }
-
-                .sticker_popular-bg {
-                    background-color: $color-yellow;
-                    padding-right: 2px;
-                    transform: rotate(-2deg);
-
-                    .sticker_popular {
-                        display: block;
-                        transform: rotate(2deg);
-                    }
-                }
-
-                .sticker_vegan-bg {
-                    background-color: $color-green;
-                    padding: 0 9px;
-                    transform: rotate(-3deg);
-
-                    .sticker_vegan {
-                        display: block;
-                        transform: rotate(3deg);
-                    }
-                }
-            }
-
-            .title_center {
-                flex-shrink: 0;
-                text-align: center;
-            }
+        .sticker {
+          font-family: "Courier New", Courier, monospace;
+          text-transform: uppercase;
+          font-size: 0.8rem;
+          line-height: 0.8rem;
         }
 
-        .food_menu-price {
-            font-size: 1.2rem;
+        .sticker_bg {
+          display: inline-block;
+          margin-left: 3vw;
+          height: 0.7rem;
         }
 
-        .food_menu-description {
-            text-align: center;
+        .sticker_new-bg {
+          background-color: $color-purple;
+          padding: 0 13px 0 11px;
+          transform: rotate(2deg) translate(0, 5px);
+
+          .sticker_new {
+            display: block;
+            transform: rotate(-2deg);
+          }
         }
+
+        .sticker_popular-bg {
+          background-color: $color-yellow;
+          padding-right: 2px;
+          transform: rotate(-2deg);
+
+          .sticker_popular {
+            display: block;
+            transform: rotate(2deg);
+          }
+        }
+
+        .sticker_vegan-bg {
+          background-color: $color-green;
+          padding: 0 9px;
+          transform: rotate(-3deg);
+
+          .sticker_vegan {
+            display: block;
+            transform: rotate(3deg);
+          }
+        }
+      }
+
+      .title_center {
+        flex-shrink: 0;
+        text-align: center;
+      }
     }
 
-    .below_food_menu-fig {
-        margin: auto;
-        display: flex;
-        padding: 20px 0px;
-        justify-content: space-evenly;
-
-        img {
-            width: 40vw;
-            min-width: 100px;
-            height: auto;
-            object-fit: cover;
-        }
+    .food_menu-price {
+      font-size: 1.2rem;
     }
 
     .food_menu-description {
-        font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;
     }
+  }
 
+  .below_food_menu-fig {
+    margin: auto;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-evenly;
 
+    img {
+      width: 40vw;
+      min-width: 100px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .food_menu-description {
+    font-family: "Roboto Condensed", sans-serif;
+  }
 }
