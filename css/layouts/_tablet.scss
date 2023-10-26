@@ -186,6 +186,16 @@ main {
 }
 
 .page-3 {
+    border-top: none;
+    border-left: 10px solid white;
+    padding-top: 25px;
+
+    fieldset .button {
+        width: 200px;
+        font-size: 1.9rem;
+        border-radius: 12px;
+    }
+
 
 }
 
