@@ -16,7 +16,7 @@ div {
 }
 
 body {
-  background-color: $color-yellow;
+  background-color: $color_yellow;
   color: black;
   font-family: "Jockey One", sans-serif;
   font-size: 1rem;
@@ -42,16 +42,16 @@ h3 {
   cursor: pointer;
 }
 
-.btn-purple {
-  background-color: $color-purple;
+.btn_purple {
+  background-color: $color_purple;
 }
 
-.btn-yellow {
-  background-color: $color-yellow;
+.btn_yellow {
+  background-color: $color_yellow;
 }
 
-.btn-green {
-  background-color: $color-green;
+.btn_green {
+  background-color: $color_green;
 }
 
 .tablet_only {
@@ -74,14 +74,14 @@ h3 {
 }
 
 @media (hover: hover) {
-  .btn-yellow:hover {
-    background-color: rgba($color-yellow, 0.7);
+  .btn_yellow:hover {
+    background-color: rgba($color_yellow, 0.7);
   }
-  .btn-green:hover {
-    background-color: rgba($color-green, 0.7);
+  .btn_green:hover {
+    background-color: rgba($color_green, 0.7);
   }
-  .btn-purple:hover {
-    background-color: rgba($color-purple, 0.7);
+  .btn_purple:hover {
+    background-color: rgba($color_purple, 0.7);
   }
   header .nav_button {
     .menu_open:hover .open:before {

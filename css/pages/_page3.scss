@@ -1,5 +1,5 @@
-.page-3 {
-  background-color: $color-green;
+.page_3 {
+  background-color: $color_green;
   border-top: 5px solid white;
   width: 100%;
 
@@ -112,7 +112,7 @@ address {
       list-style-type: none;
 
       li {
-        color: $color-blue;
+        color: $color_blue;
         text-shadow: -2px -2px black;
         font-style: normal;
         display: flex;
@@ -121,7 +121,7 @@ address {
         line-height: 1.5rem;
 
         .contact_link {
-          color: $color-blue;
+          color: $color_blue;
           text-shadow: -2px -2px black;
           font-style: normal;
           text-decoration: none;

@@ -1,6 +1,6 @@
 header {
   background-color: black;
-  border-bottom: 8px solid $color-yellow;
+  border-bottom: 8px solid $color_yellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@ header {
       cursor: pointer;
 
       .open {
-        background-color: $color-yellow;
+        background-color: $color_yellow;
         width: 40px;
         height: 6px;
         display: block;
@@ -49,7 +49,7 @@ header {
 
         &:before {
           content: "";
-          background-color: $color-yellow;
+          background-color: $color_yellow;
           width: 40px;
           height: 6px;
           display: block;
@@ -63,7 +63,7 @@ header {
 
         &:after {
           content: "";
-          background-color: $color-yellow;
+          background-color: $color_yellow;
           width: 40px;
           height: 6px;
           display: block;
@@ -85,7 +85,7 @@ header {
       max-height: 100%;
       top: 0;
       left: 0;
-      background: $color-purple;
+      background: $color_purple;
       z-index: 50;
 
       .close_spacer {

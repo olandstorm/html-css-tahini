@@ -15,7 +15,7 @@ main {
     grid-column: 2 / 13;
 }
 
-.page-1 {
+.page_1 {
     border-width: 0 16px;
 
     .page_spacer {
@@ -40,7 +40,7 @@ main {
         .white_textbox {
             grid-column: 6 / 12;
             width: 100%;
-            border-left: 16px solid $color-yellow;
+            border-left: 16px solid $color_yellow;
 
             .white_textbox-text {
                 font-size: 2.1rem;

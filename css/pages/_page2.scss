@@ -1,8 +1,8 @@
-.page-2 {
-  background-color: $color-yellow;
+.page_2 {
+  background-color: $color_yellow;
   border-width: 5px;
   border-style: solid;
-  border-color: $color-yellow;
+  border-color: $color_yellow;
   width: 100%;
 
   .food_menu-fig {
@@ -54,7 +54,7 @@
         }
 
         .sticker_new-bg {
-          background-color: $color-purple;
+          background-color: $color_purple;
           padding: 0 13px 0 11px;
           transform: rotate(2deg) translate(0, 5px);
 
@@ -65,7 +65,7 @@
         }
 
         .sticker_popular-bg {
-          background-color: $color-yellow;
+          background-color: $color_yellow;
           padding-right: 2px;
           transform: rotate(-2deg);
 
@@ -76,7 +76,7 @@
         }
 
         .sticker_vegan-bg {
-          background-color: $color-green;
+          background-color: $color_green;
           padding: 0 9px;
           transform: rotate(-3deg);
 

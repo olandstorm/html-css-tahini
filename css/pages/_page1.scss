@@ -1,8 +1,8 @@
-.page-1 {
+.page_1 {
   background-color: black;
   border-width: 0px 5px;
   border-style: solid;
-  border-color: $color-yellow;
+  border-color: $color_yellow;
   width: 100%;
   padding-top: 130px;
 
@@ -26,20 +26,20 @@
   }
   .drizzle {
     font-size: 1.9rem;
-    color: $color-purple;
+    color: $color_purple;
     right: 0;
     top: 0;
   }
   .tahini {
     font-size: 5rem;
-    color: $color-green;
+    color: $color_green;
     top: 5px;
     right: 0;
     z-index: 2;
   }
   .chickpeas {
     font-size: 1.9rem;
-    color: $color-yellow;
+    color: $color_yellow;
     top: 75px;
     left: 15px;
     z-index: 1;
@@ -47,7 +47,7 @@
 }
 
 .green_text {
-  color: $color-green;
+  color: $color_green;
   max-width: 500px;
   text-align: center;
   margin: auto;
@@ -80,11 +80,11 @@
 
 .white_textbox {
   background-color: white;
-  border-top: 5px solid $color-yellow;
+  border-top: 5px solid $color_yellow;
   padding: 5px;
 
   .white_textbox-text {
-    color: $color-purple;
+    color: $color_purple;
     margin: auto;
     max-width: 500px;
   }
