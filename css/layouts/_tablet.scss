@@ -96,7 +96,7 @@ header {
         align-items: center;
       }
     }
-    #burger:checked ~ .menu_open .open {
+    .burger_icon:checked ~ .menu_open .open {
       &:before {
         background-color: $color_yellow;
       }

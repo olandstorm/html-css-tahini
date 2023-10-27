@@ -25,7 +25,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    #burger {
+    .burger_icon {
       display: none;
     }
 
@@ -141,7 +141,7 @@ header {
       }
     }
 
-    #burger:checked ~ .nav_effects {
+    .burger_icon:checked ~ .nav_effects {
       opacity: 1;
       visibility: visible;
       transition: opacity 0.5s;
@@ -151,7 +151,7 @@ header {
       }
     }
 
-    #burger:checked ~ .menu_open .open {
+    .burger_icon:checked ~ .menu_open .open {
       background-color: transparent;
 
       &:before {
@@ -175,7 +175,7 @@ header {
       }
     }
 
-    #burger:not(:checked) ~ .nav_effects ul {
+    .burger_icon:not(:checked) ~ .nav_effects ul {
       transform: translateY(-40%);
     }
   }

@@ -93,10 +93,10 @@ h3 {
     .nav_full .nav_content ul li a:hover {
       color: black;
     }
-    #burger:checked:hover ~ .menu_open .open:before {
+    .burger_icon:checked:hover ~ .menu_open .open:before {
       left: 0;
     }
-    #burger:checked:hover ~ .menu_open .open:after {
+    .burger_icon:checked:hover ~ .menu_open .open:after {
       left: 0;
     }
   }
