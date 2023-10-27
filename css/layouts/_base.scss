@@ -1,0 +1,27 @@
+body {
+    background-color: $color_yellow;
+    color: black;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    color: white;
+    font-size: clamp(1.3rem, 8.5vw, 2.5em);
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .tablet_only {
+    display: none;
+  }
+  
+  .anchor_mobile {
+    top: -100px;
+    visibility: hidden;
+    display: block;
+    position: relative;
+  }
