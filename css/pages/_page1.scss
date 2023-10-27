@@ -70,11 +70,12 @@
   .img_white_arrow {
     position: absolute;
     transform: rotate(90deg);
-    bottom: 10px;
+    bottom: 19px;
     left: 5%;
     width: 15%;
     max-width: 50px;
     height: auto;
+    transition: bottom 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
 

@@ -139,7 +139,7 @@ main {
   .white_textbox {
     grid-column: 4 / 8;
     grid-row: 2 / 3;
-    width: 80%;
+    width: 90%;
     justify-self: end;
     padding: 10px;
     border-left: 10px solid $color_yellow;
@@ -150,7 +150,7 @@ main {
     }
 
     .explore {
-        margin: 0;
+      margin: 0;
       img {
         height: 0.9rem;
       }
@@ -172,6 +172,7 @@ main {
       width: 100%;
       margin-top: auto;
       margin-bottom: 0;
+      object-fit: contain;
     }
   }
 }

@@ -52,4 +52,8 @@ div {
       left: 0;
     }
   }
+  .fig_salad .img_salad:hover ~ .img_white_arrow {
+      bottom: 10px;
+    }
+
 }

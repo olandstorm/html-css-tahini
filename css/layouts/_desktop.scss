@@ -1,67 +1,88 @@
 .grid_container {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 header .nav_button .nav_full {
-    margin-left: calc(100% / 12);
-    width: calc(100vw - 100% / 12);
-    max-width: calc(100% - 100% / 12);
-    .close_spacer {
-        width: calc(100% / 12);
-    }
+  margin-left: calc(100% / 12);
+  width: calc(100vw - 100% / 12);
+  max-width: calc(100% - 100% / 12);
+  .close_spacer {
+    width: calc(100% / 12);
+  }
 }
 
 main {
-    grid-column: 2 / 13;
+  grid-column: 2 / 13;
 }
 
 .page_1 {
-    border-width: 0 16px;
+  border-width: 0 16px;
 
-    .page_spacer {
-        grid-template-columns: repeat(11, minmax(0, 1fr));
-        column-gap: 16px;
+  .page_spacer {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+    column-gap: 16px;
+    height: 100vh;
+    max-height: 100%;
 
-        .word_group {
-            grid-column: 2 / 5;
-        }
+    .word_group {
+      grid-column: 2 / 5;
+      width: 210px;
 
-        .green_text {
-            grid-column: 5 / 12;
-            margin: auto;
-            padding-left: 15px;
-            padding-right: 15px;
-            width: 100%;
-            max-width: 800px;
-            font-size: 2.1rem;
-            line-height: 2.8rem;
-        }
-
-        .white_textbox {
-            grid-column: 6 / 12;
-            width: 100%;
-            border-left: 16px solid $color_yellow;
-
-            .white_textbox-text {
-                font-size: 2.1rem;
-                line-height: 2.8rem;
-                margin: 0;
-            }
-
-            .explore {
-                img {
-                    height: 1.4rem;
-                }
-
-                .explore_link {
-                    font-size: 2.1rem;
-                }
-            }
-        }
-
-        .fig_salad {
-            grid-column: 1 / 6;
-            padding-top: 0;
-        }
+      .drizzle {
+        font-size: 2.1rem;
+      }
+      .tahini {
+        font-size: 5.3rem;
+        top: 5px;
+      }
+      .chickpeas {
+        font-size: 2.1rem;
+        top: 79px;
+        left: 20px;
+      }
     }
+
+    .green_text {
+      grid-column: 5 / 12;
+      margin: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+      max-width: 800px;
+      font-size: 2.1rem;
+      line-height: 2.6rem;
+    }
+
+    .white_textbox {
+      grid-column: 6 / 12;
+      width: 100%;
+      border-left: 16px solid $color_yellow;
+
+      .white_textbox-text {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+        margin: 0;
+      }
+
+      .explore {
+        img {
+          height: 1.4rem;
+        }
+
+        .explore_link {
+          font-size: 2.1rem;
+        }
+      }
+    }
+
+    .fig_salad {
+      grid-column: 1 / 6;
+      max-height: 100%;
+      padding-top: 0;
+
+      .img_salad {
+        max-height: 100%;
+      }
+    }
+  }
 }
