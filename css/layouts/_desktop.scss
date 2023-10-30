@@ -22,8 +22,7 @@ main {
   .page_spacer {
     grid-template-columns: repeat(11, minmax(0, 1fr));
     column-gap: 16px;
-    height: 100vh;
-    min-height: 770px;
+    min-height: 100vh;
 
     .word_group {
       grid-column: 2 / 5;
