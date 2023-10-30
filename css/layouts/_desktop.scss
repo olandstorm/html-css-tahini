@@ -17,6 +17,7 @@ main {
 
 .page_1 {
   border-width: 0 16px;
+  min-height: 100vh;
 
   .page_spacer {
     grid-template-columns: repeat(11, minmax(0, 1fr));
@@ -181,6 +182,80 @@ main {
     .food_menu-price {
       font-size: 1.8rem;
       font-weight: 100;
+    }
+  }
+}
+
+.page_3 {
+  min-height: 100vh;
+  padding-top: 0;
+
+  .page_spacer {
+    display: grid;
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+    column-gap: 16px;
+    height: 100%;
+
+    form {
+      grid-column: 1 / 6;
+      padding-top: 0;
+      margin: auto 0;
+
+      fieldset {
+        text-align: center;
+        max-width: 500px;
+
+        legend {
+          font-size: 3rem;
+          text-align: left;
+        }
+
+        label {
+          width: 100%;
+          max-width: initial;
+          flex-direction: row;
+          margin-bottom: 10px;
+          align-items: center;
+          text-align: left;
+
+          span {
+            width: 30%;
+            font-size: 1.8rem;
+          }
+
+          input {
+            width: 70%;
+            margin-bottom: 0;
+          }
+        }
+        .button {
+          margin: auto 0.5vw;
+        }
+      }
+    }
+
+    address {
+      grid-column: 6 / 12;
+      margin: auto;
+      max-width: 450px;
+      max-height: 450px;
+
+      .contact_info ul {
+        row-gap: 12px;
+        li {
+          font-size: 1.8rem;
+          line-height: 2rem;
+
+          .contact_link {
+            font-size: 1.8rem;
+            line-height: 2rem;
+          }
+
+          span {
+            font-size: 3.5rem;
+          }
+        }
+      }
     }
   }
 }

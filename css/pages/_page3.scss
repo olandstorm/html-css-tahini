@@ -50,11 +50,16 @@ fieldset {
 
     input {
       border: none;
-      border-radius: 10px;
+      border-radius: 11px;
       outline: none;
       padding: 5px;
       width: 100%;
       margin-bottom: 7px;
+
+      &::placeholder {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.8rem;
+      }
     }
   }
 
