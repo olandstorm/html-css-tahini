@@ -22,7 +22,7 @@ main {
     grid-template-columns: repeat(11, minmax(0, 1fr));
     column-gap: 16px;
     height: 100vh;
-    max-height: 100%;
+    min-height: 770px;
 
     .word_group {
       grid-column: 2 / 5;
@@ -83,6 +83,104 @@ main {
       .img_salad {
         max-height: 100%;
       }
+    }
+  }
+}
+
+.page_2 {
+  .page_2-spacer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .food_menu-fig {
+    display: grid;
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: 16px;
+    height: 50vh;
+
+    .food_menu-img {
+      grid-column: 4 / 8;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .food_menu-section {
+      flex-grow: 0;
+    }
+    .food_menu-img:first-of-type {
+      grid-column: 1 / 4;
+    }
+
+    .food_menu-img:last-of-type {
+      grid-column: 8 / 12;
+    }
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+    gap: 16px;
+    padding: 5px;
+
+    div {
+      grid-column: 5 / 11;
+    }
+
+    div:first-of-type {
+      grid-column: 1 / 5;
+    }
+
+    div:last-of-type {
+      grid-column: 11 / 12;
+
+      p {
+        text-align: end;
+      }
+    }
+
+    .food_menu-title {
+      justify-content: flex-start;
+      padding-right: 10px;
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: 100;
+      }
+
+      .title_spacer:first-of-type {
+        display: none;
+      }
+
+      .title_spacer {
+        .sticker_bg {
+          margin-left: 12px;
+        }
+        .sticker_new-bg {
+          transform: rotate(2deg) translate(0, 9px);
+        }
+
+        .sticker_vegan-bg {
+          transform: rotate(-3deg) translate(0, 9px);
+        }
+
+        .sticker_popular-bg {
+          transform: rotate(-2deg) translate(0, 9px);
+        }
+      }
+    }
+
+    .food_menu-description {
+      text-align: left;
+      font-size: 1.3rem;
+    }
+
+    .food_menu-price {
+      font-size: 1.8rem;
+      font-weight: 100;
     }
   }
 }
