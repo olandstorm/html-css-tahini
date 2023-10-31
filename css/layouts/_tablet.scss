@@ -138,7 +138,7 @@ main {
     grid-column: 4 / 8;
     grid-row: 1 / 2;
     margin-bottom: 8vh;
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 3vw, 2.1rem);
     line-height: 1.8rem;
     text-align: left;
     margin-left: 15px;
@@ -154,7 +154,7 @@ main {
     border-top: none;
 
     .white_textbox-text {
-      font-size: 1.3rem;
+      font-size: clamp(1.3rem, 3vw, 2.1rem);
     }
 
     .explore {
@@ -164,7 +164,7 @@ main {
       }
 
       .explore_link {
-        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 3vw, 2.1rem);
       }
     }
   }
