@@ -219,15 +219,15 @@ main {
   address .blurred_bg {
     background-image: url("../assets/photos/tablet/table_tablet.jpg");
   }
+}
 
-  footer {
-    z-index: 30;
-    padding-left: calc(120% / 8);
-    padding-right: 25px;
+footer {
+  z-index: 30;
+  padding-left: calc(120% / 8);
+  padding-right: 25px;
 
-    .cookie_text {
-      font-size: 1.2rem;
-      font-weight: 100;
-    }
+  .cookie_text {
+    font-size: 1.2rem;
+    font-weight: 100;
   }
 }
