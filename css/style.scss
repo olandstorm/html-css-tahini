@@ -9,14 +9,6 @@
 @import "pages/page3";
 @import "pages/cookie";
 
-$debugging: false; // true or false
-
-div {
-  @if $debugging {
-    outline: 1px solid hotpink;
-  }
-}
-
 @media screen and (min-width: 768px) {
   @import "layouts/tablet";
 }

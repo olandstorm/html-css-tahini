@@ -97,6 +97,7 @@
 
     .food_menu-description {
       text-align: center;
+      font-family: "Roboto Condensed", sans-serif;
     }
   }
 
@@ -112,9 +113,5 @@
       height: auto;
       object-fit: cover;
     }
-  }
-
-  .food_menu-description {
-    font-family: "Roboto Condensed", sans-serif;
   }
 }

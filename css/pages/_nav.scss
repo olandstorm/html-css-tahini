@@ -97,12 +97,8 @@ header {
       }
     }
 
-    .nav_check:not(:checked) ~ .nav_container .nav_effects ul {
+    .nav_check:not(:checked) ~ .nav_container .menu_full ul {
       transform: translateY(-20%);
-    }
-
-    .nav_check:focus {
-      opacity: 1;
     }
 
     .menu_full {

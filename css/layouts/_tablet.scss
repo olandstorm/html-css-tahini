@@ -215,15 +215,19 @@ main {
   fieldset .button {
     width: 180px;
   }
-}
 
-footer {
-  z-index: 30;
-  padding-left: calc(120% / 8);
-  padding-right: 25px;
+  address .blurred_bg {
+    background-image: url("../assets/photos/tablet/table_tablet.jpg");
+  }
 
-  .cookie_text {
-    font-size: 1.2rem;
-    font-weight: 100;
+  footer {
+    z-index: 30;
+    padding-left: calc(120% / 8);
+    padding-right: 25px;
+
+    .cookie_text {
+      font-size: 1.2rem;
+      font-weight: 100;
+    }
   }
 }

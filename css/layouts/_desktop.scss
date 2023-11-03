@@ -236,6 +236,10 @@ main {
       max-width: 450px;
       max-height: 450px;
 
+      .blurred_bg {
+        background-image: url("../assets/photos/desktop/table_desktop.jpg");
+      }
+
       .contact_info ul {
         row-gap: 12px;
         li {

@@ -11,101 +11,101 @@
     flex-direction: column;
     min-height: 100vh;
   }
-}
 
-.word_group {
-  width: 195px;
-  height: 150px;
-  margin: auto;
-  position: relative;
-  text-align: center;
-
-  .word {
-    text-transform: uppercase;
-    position: absolute;
-  }
-  .drizzle {
-    font-size: 1.9rem;
-    color: $color_purple;
-    right: 0;
-    top: 0;
-  }
-  .tahini {
-    font-size: 5rem;
-    color: $color_green;
-    top: 5px;
-    right: 0;
-    z-index: 2;
-  }
-  .chickpeas {
-    font-size: 1.9rem;
-    color: $color_yellow;
-    top: 75px;
-    left: 15px;
-    z-index: 1;
-  }
-}
-
-.green_text {
-  color: $color_green;
-  max-width: 500px;
-  text-align: center;
-  margin: auto;
-  padding: 0 5px;
-}
-
-.fig_salad {
-  width: 100vw;
-  max-width: 100%;
-  padding-top: 50px;
-  position: relative;
-
-  .img_salad {
-    width: 75%;
-    min-width: 30px;
-    height: auto;
+  .word_group {
+    width: 195px;
+    height: 150px;
     margin: auto;
-  }
+    position: relative;
+    text-align: center;
 
-  .img_white_arrow {
-    position: absolute;
-    transform: rotate(90deg);
-    bottom: 19px;
-    left: 5%;
-    width: 15%;
-    max-width: 50px;
-    height: auto;
-    transition: bottom 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-}
-
-.white_textbox {
-  background-color: white;
-  border-top: 5px solid $color_yellow;
-  padding: 5px;
-
-  .white_textbox-text {
-    color: $color_purple;
-    margin: auto;
-    max-width: 500px;
-  }
-
-  .explore {
-    max-width: 500px;
-    margin: auto;
-
-    .explore_link {
-      display: inline-block;
-      text-decoration: none;
+    .word {
       text-transform: uppercase;
-      color: black;
+      position: absolute;
     }
-    .explore_fig {
-      display: inline-block;
+    .drizzle {
+      font-size: 1.9rem;
+      color: $color_purple;
+      right: 0;
+      top: 0;
+    }
+    .tahini {
+      font-size: 5rem;
+      color: $color_green;
+      top: 5px;
+      right: 0;
+      z-index: 2;
+    }
+    .chickpeas {
+      font-size: 1.9rem;
+      color: $color_yellow;
+      top: 75px;
+      left: 15px;
+      z-index: 1;
+    }
+  }
 
-      img {
-        height: 0.7rem;
-        width: auto;
+  .green_text {
+    color: $color_green;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 0 5px;
+  }
+
+  .fig_salad {
+    width: 100vw;
+    max-width: 100%;
+    padding-top: 50px;
+    position: relative;
+
+    .img_salad {
+      width: 75%;
+      min-width: 30px;
+      height: auto;
+      margin: auto;
+    }
+
+    .img_white_arrow {
+      position: absolute;
+      transform: rotate(90deg);
+      bottom: 19px;
+      left: 5%;
+      width: 15%;
+      max-width: 50px;
+      height: auto;
+      transition: bottom 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+  }
+
+  .white_textbox {
+    background-color: white;
+    border-top: 5px solid $color_yellow;
+    padding: 5px;
+
+    .white_textbox-text {
+      color: $color_purple;
+      margin: auto;
+      max-width: 500px;
+    }
+
+    .explore {
+      max-width: 500px;
+      margin: auto;
+
+      .explore_link {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+      }
+      .explore_fig {
+        display: inline-block;
+
+        img {
+          height: 0.7rem;
+          width: auto;
+        }
       }
     }
   }
