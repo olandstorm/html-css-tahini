@@ -28,7 +28,9 @@ header {
     .nav_check {
       width: 40px;
       height: 40px;
-      position: fixed;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
       z-index: 800;
       opacity: 0;
       cursor: pointer;
@@ -97,6 +99,10 @@ header {
 
     .nav_check:not(:checked) ~ .nav_container .nav_effects ul {
       transform: translateY(-20%);
+    }
+
+    .nav_check:focus {
+      opacity: 1;
     }
 
     .menu_full {
