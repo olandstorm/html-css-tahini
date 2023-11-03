@@ -54,22 +54,27 @@ header {
   .nav_button {
     padding: 10px;
 
-    .menu_open {
+    .nav_check {
+      width: 52px;
+      height: 52px;
+    }
+
+    .burger_button {
       width: 52px;
       height: 52px;
 
-      .open {
+      .nav_line {
         width: 52px;
         height: 8px;
         border-radius: 4px;
 
-        &:before {
+        &:nth-child(1) {
           width: 52px;
           height: 8px;
           border-radius: 4px;
-          top: -14px;
         }
-        &:after {
+
+        &:nth-child(3) {
           width: 52px;
           height: 8px;
           border-radius: 4px;
@@ -77,25 +82,11 @@ header {
       }
     }
 
-    .nav_full {
+    .menu_full {
       margin-left: calc(100% / 8);
       width: calc(100vw - 100% / 8);
       max-width: calc(100% - 100% / 8);
-      .close_spacer {
-        height: 100%;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: calc(100% / 8);
-        padding: 10px;
-        position: fixed;
-        left: 0;
-        top: 0;
 
-        .menu_close {
-          width: 52px;
-          height: 52px;
-        }
-      }
       .nav_content {
         position: relative;
         margin: 0;
@@ -104,11 +95,11 @@ header {
         align-items: center;
       }
     }
-    .burger_icon:checked ~ .menu_open .open {
-      &:before {
+    .nav_check:checked + .nav_container .burger_button .nav_line {
+      &:nth-child(1) {
         background-color: $color_yellow;
       }
-      &:after {
+      &:nth-child(3) {
         background-color: $color_yellow;
       }
     }

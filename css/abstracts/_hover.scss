@@ -1,0 +1,40 @@
+.btn_yellow:hover {
+  background-color: rgba($color_yellow, 0.7);
+}
+.btn_green:hover {
+  background-color: rgba($color_green, 0.7);
+}
+.btn_purple:hover {
+  background-color: rgba($color_purple, 0.7);
+}
+header .nav_button {
+  .nav_check:not(:checked):hover
+    ~ .nav_container
+    .burger_button
+    .nav_line:nth-child(1) {
+    margin-left: -9px;
+  }
+  .nav_check:not(:checked):hover
+    ~ .nav_container
+    .burger_button
+    .nav_line:nth-child(2) {
+    margin-left: -5px;
+  }
+  .nav_check:hover ~ .nav_container .burger_button .nav_line:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .burger_icon:checked:hover ~ .menu_open .open:before {
+    left: 0;
+  }
+  .burger_icon:checked:hover ~ .menu_open .open:after {
+    left: 0;
+  }
+
+  .nav_container .menu_full .nav_content ul li a:hover {
+    color: black;
+  }
+}
+.fig_salad .img_salad:hover ~ .img_white_arrow {
+  bottom: 10px;
+}

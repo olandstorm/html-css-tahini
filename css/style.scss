@@ -26,33 +26,5 @@ div {
 }
 
 @media (hover: hover) {
-  .btn_yellow:hover {
-    background-color: rgba($color_yellow, 0.7);
-  }
-  .btn_green:hover {
-    background-color: rgba($color_green, 0.7);
-  }
-  .btn_purple:hover {
-    background-color: rgba($color_purple, 0.7);
-  }
-  header .nav_button {
-    .menu_open:hover .open:before {
-      left: -9px;
-    }
-    .menu_open:hover .open:after {
-      left: 5px;
-    }
-    .nav_full .nav_content ul li a:hover {
-      color: black;
-    }
-    .burger_icon:checked:hover ~ .menu_open .open:before {
-      left: 0;
-    }
-    .burger_icon:checked:hover ~ .menu_open .open:after {
-      left: 0;
-    }
-  }
-  .fig_salad .img_salad:hover ~ .img_white_arrow {
-    bottom: 10px;
-  }
+  @import "abstracts/hover";
 }
